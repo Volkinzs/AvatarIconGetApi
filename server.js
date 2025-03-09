@@ -58,3 +58,5 @@ app.post("/webhook", async (req, res) => {
         res.status(500).send("Erro interno: " + error.message);
     }
 });
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
