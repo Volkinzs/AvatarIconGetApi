@@ -13,7 +13,7 @@ app.post("/webhook", async (req, res) => {
         const imageUrl = thumbnailResponse.data.data[0].imageUrl;
 
         // Passo 2: Envia o webhook para o Discord
-        const discordWebhookUrl = "https://discord.com/api/webhooks/SEU_WEBHOOK_AQUI";
+        const discordWebhookUrl = "https://discord.com/api/webhooks/1348054742470758492/oSKgV7EdDOphm3NkHW2efBP7xLPYlkT4IferB1AfjFcCmn7MGUojGaAMrgbF7mHgQ8MW";
         const embed = {
             title: "Ícone do Avatar",
             description: `Ícone do usuário com ID ${userId}`,
